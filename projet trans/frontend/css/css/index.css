@@ -1,0 +1,154 @@
+
+  
+  body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+
+  background-color: #8BA8BA;
+
+  }
+     
+
+  .navbar {              /*ici on a la barre de rechercge avec un flex wrap afin de tout reunir sans espace avec des  marge pour délimiter la barre de navigation avec un background */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-right: 500px;
+   margin-bottom: 30px;
+   margin-top: 10px;
+  }
+
+  .menu {           /* le menu contient la barre de navigation et la barre de recherche j ai utilisé un hover avec de rajouter un effet lorsqu'on passe le curseur de la souris par dessus  sa modifie la couleur ainsi de la taille en mettant un scale*/
+   list-style: none;
+   margin: 0;
+   padding: 19px;
+   display: flex;
+   margin-left: 435px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   margin-top: 50px;
+
+   text-decoration: none;
+
+  }
+
+  .menu li {
+   margin-right: 20px;
+   text-decoration: none;
+  
+   
+  }
+  .menu li:hover {
+   margin-right: 20px;
+   text-decoration: none;
+   
+  }
+  
+  .menu a {
+   
+   color: white;
+   font-weight: bold;
+   font-size: 16px;
+
+   text-decoration: none;
+   
+  }
+  .menu a:hover{
+   text-decoration: none;
+   color: #8BA8BA;
+   font-weight: bold;
+   font-size: 16.1px;
+   text-decoration: none;
+  
+  }
+  
+  form { /* le form est utilié pour la barre de recherche avec le input j ai tutilisé un flex box wrap pour reunir avec la barre de navigation*/
+   display: flex;
+   align-items: center;
+ 
+   text-decoration: none;
+
+  }
+  
+  input[type="search"] {
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   margin-right: 10px;
+   background-color: #f7f7f7;
+   height: 20px;
+   text-decoration: none;
+  }
+  
+  input[type="search"]:focus {
+   outline: none;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+   background-color: #f7f7f7;
+  }
+
+
+
+.sec1{
+    
+    background-color: rgb(27, 28, 58);
+    height: 470px;
+   
+}
+
+svg {
+    position: absolute;
+
+}
+h1{
+    text-align: center;
+    color: #ffffff;
+    margin-left: 630px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+    z-index: 2;
+    margin-top: -200px;
+}
+.swiper {
+    width: 1200px;
+    height: 300px;
+}
+.swiper img{
+height: 200px;
+margin-left: 400px;
+margin-top: 50px;
+}
+h2{
+    text-align: center;
+    color: #ffffff;
+    margin-left: 520px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    z-index: 2;
+   
+}
+p{
+    color: #ffffff;
+    margin-left: 20px;
+    font-size: larger;
+}
+img{
+    height: 400px
+}
+footer{
+    color: #ffffff;
+   margin-top: 400px;
+   margin-bottom: 20px;
+   background-color: #1B1C3A ;
+   height: 150px;
+   width: 100%;
+}
+footer ul {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+footer ul img{
+    height: 15px;
+    margin-left: 10px;
+}  

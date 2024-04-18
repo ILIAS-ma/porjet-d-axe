@@ -1,0 +1,212 @@
+
+  
+  
+  body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  
+    background-color: #8BA8BA;
+  
+    }
+       
+    
+  
+  
+       
+      
+    
+    
+    
+    
+    .navbar {              /*ici on a la barre de rechercge avec un flex wrap afin de tout reunir sans espace avec des  marge pour délimiter la barre de navigation avec un background */
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-right: 550px;
+     margin-bottom: 30px;
+     margin-top: 10px;
+  
+  
+    
+    }
+    
+    
+    
+    .menu {           /* le menu contient la barre de navigation et la barre de recherche j ai utilisé un hover avec de rajouter un effet lorsqu'on passe le curseur de la souris par dessus  sa modifie la couleur ainsi de la taille en mettant un scale*/
+     list-style: none;
+     margin: 0;
+     padding: 19px;
+     display: flex;
+     margin-left: 435px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     margin-top: 50px;
+  
+     text-decoration: none;
+  
+    }
+    
+    .menu li {
+     margin-right: 20px;
+     text-decoration: none;
+    
+     
+    }
+    .menu li:hover {
+     margin-right: 20px;
+     text-decoration: none;
+     
+    }
+    
+    .menu a {
+     
+     color: white;
+     font-weight: bold;
+     font-size: 16px;
+  
+     text-decoration: none;
+     
+    }
+    .menu a:hover{
+     text-decoration: none;
+     color: #8BA8BA;
+     font-weight: bold;
+     font-size: 16.1px;
+     text-decoration: none;
+    
+    }
+    
+    form { /* le form est utilié pour la barre de recherche avec le input j ai tutilisé un flex box wrap pour reunir avec la barre de navigation*/
+     display: flex;
+     align-items: center;
+   
+     text-decoration: none;
+  
+    }
+    
+    input[type="search"] {
+     padding: 10px;
+     border: none;
+     border-radius: 5px;
+     margin-right: 10px;
+     background-color: #f7f7f7;
+     height: 20px;
+     text-decoration: none;
+    }
+    
+    input[type="search"]:focus {
+     outline: none;
+     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+     background-color: #f7f7f7;
+    }
+  
+  
+  
+  .sec1{
+      
+      background-color: rgb(27, 28, 58);
+      height: 470px;
+     
+  }
+  
+  svg {
+      position: absolute;
+  
+  }
+ 
+  footer{
+      color: #ffffff;
+     margin-top: 400px;
+     margin-bottom: 20px;
+     background-color: #1B1C3A ;
+     height: 150px;
+     width: 100%;
+  }
+  footer ul {
+      margin-top: 10px;
+      margin-left: 20px;
+  }
+  footer ul img{
+      height: 15px;
+      margin-left: 10px;
+  }
+  .container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1743bb;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  div.container{
+    width: 500px;
+    color: #ffffff;
+    background-color: rgba(0, 81, 255, 0.274);
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="password2"],
+  textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px;
+    background-color:rgb(27, 28, 58);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgb(27, 28, 58);
+    box-shadow:  #8BA8BA 0px 0px 10px 10px  ;
+  }
+  .message-error {
+    border: 1px solid rgba(212, 42, 0, 1); 
+    color: rgb(212, 42, 0); 
+    background-color:rgba(212, 42, 0, 0.4); 
+    padding: 16px 32px; 
+    margin-bottom: 20px; 
+    display: none;
+}
+.message-success {
+    border: 1px solid rgb(81, 150, 2); 
+    color: rgb(81, 150, 2); 
+    background-color:rgba(113, 212, 0, 0.4); 
+    padding: 16px 32px;
+     margin-bottom: 20px; 
+     display: none;
+}
+
+.success{
+    border: 1px solid rgb(81, 150, 2);
+    background-color: rgba(113, 212, 0, 0.4);
+}
+ .message-error.visible{
+    display:block;
+}
